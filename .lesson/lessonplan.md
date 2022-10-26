@@ -1,12 +1,12 @@
 ```html
 
-
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
 	<title>Halloween Store</title>
+	<link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
@@ -42,17 +42,32 @@
   </footer>
 </body>
 </html>
-
 ```
+
+
 
 ```css
 
+
+html {
+	background-image: url("../images/bats.gif");	
+}
 body  {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	background-color: white;
+	margin: 0 auto; 
+	padding: 0;
+	border: 3px solid black;
+	box-shadow: 0 9px 18px 9px;
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
 }
 a {
-    font-weight: bold;
-    color: orange;
+	font-weight: bold;
+	color: orange;
 }
 a:link, a:visited { 
     color: orange; 
@@ -62,41 +77,57 @@ a:hover, a:focus {
 }
 
 /* Header */
+header { 
+    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    padding: 15px; 
+    border-bottom: 2px solid black; 
+} 
 header img { 
 	float: left; 
+	padding-right: 15px;  
 } 
 header h2 {
 	font-size: 230%;
-	font-style: italic;
-	color: orange;
-	text-indent: 25px;
-	text-shadow: 2px 2px 2px black;
 }
 header h3 {
 	font-size: 125%;
-	text-indent: 25px;
 }
 
 /* Main */
+main {
+	padding: 20px 25px 25px 25px;
+}
 main h1 { 
 	font-size: 140%;
+	margin-bottom: .5em;
 }
 main h1:first-letter { 
 	font-size: 240%;
 }
 main h2 {
 	font-size: 125%;
+	margin: .8em 0 .5em 0;
 }
 main h3 {
 	font-size: 110%;
+	margin-bottom: .5em;
 }
-ul {
-	line-height: 1.5;
+main p {
+	margin-bottom: .5em;
+}
+main ul {
+	margin-top: 0;
 }
 
 /* Footer */
+footer { 
+	border-top: 2px solid black;
+	padding: 15px;
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+} 
 footer p {
 	font-size: 90%;
 	text-align: center;
 }
+
 ```

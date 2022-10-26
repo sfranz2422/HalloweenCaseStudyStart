@@ -1,0 +1,52 @@
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+    font-weight: bold;
+    color: orange;
+}
+a:link, a:visited { 
+    color: orange; 
+}
+a:hover, a:focus { 
+    color: green;
+}
+
+/* Header */
+header img { 
+	float: left; 
+} 
+header h2 {
+	font-size: 230%;
+	font-style: italic;
+	color: orange;
+	text-indent: 25px;
+	text-shadow: 2px 2px 2px black;
+}
+header h3 {
+	font-size: 125%;
+	text-indent: 25px;
+}
+
+/* Main */
+main h1 { 
+	font-size: 140%;
+}
+main h1:first-letter { 
+	font-size: 240%;
+}
+main h2 {
+	font-size: 125%;
+}
+main h3 {
+	font-size: 110%;
+}
+ul {
+	line-height: 1.5;
+}
+
+/* Footer */
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
